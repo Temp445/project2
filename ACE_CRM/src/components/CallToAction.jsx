@@ -11,7 +11,7 @@ export default function CallToAction() {
     navigate("#");
   };
   return (
-    <div className=" xxxl:container mx-auto">
+    <div className=" 2xl:container mx-auto">
       <section className="w-full h-[360px] md:h-[400px] bg-gradient-to-r from-indigo-50 to-purple-50 bg-no-repeat  relative  md:mt-[20px] mr-0 mb-0 md:ml-0 z-10">
         <div className="w-[1290px] h-[163px] relative z-[138] md:mt-[60px] mr-0 mb-0 xl:ml-[144px]">
           <div className="w-[341px] h-[50px] relative overflow-hidden z-[138] mt-[112px] mr-0 mb-0 ml-[450px] lg:ml-[0px] xl:ml-[450px]">
