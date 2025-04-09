@@ -248,7 +248,7 @@ export default function Features() {
                 className="w-1/2 mt-56 lg:mt-44  lg:ml-[530px] xl:ml-[700px]"
               >
                 <video
-                  className="w-[350px] md:w-[450px] xl:w-full h-full object-center rounded-[5px]"
+                  className="w-[350px] md:w-[450px] xl:w-full h-full object-center rounded-[5px] border shadow-lg "
                   src={video1}
                   autoPlay
                   muted
