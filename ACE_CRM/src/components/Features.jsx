@@ -137,6 +137,8 @@ export default function Features() {
                       autoPlay
                       muted
                       loop
+                      preload="auto"
+                      playsinline
                     />
                     <div className="flex w-[35px] h-[35px] gap-[10px] items-center flex-nowrap relative z-[31] mt-[242px] ml-[484px]" />
                   </motion.div>
@@ -222,6 +224,8 @@ export default function Features() {
                   autoPlay
                   muted
                   loop
+                  playsinline
+                  preload="auto"
                 />
               </motion.div>
             </div>
@@ -253,6 +257,8 @@ export default function Features() {
                   autoPlay
                   muted
                   loop
+                  playsinline
+                  preload="auto"
                 />
               </motion.div>
 
@@ -342,6 +348,8 @@ export default function Features() {
                   autoPlay
                   muted
                   loop
+                  playsinline
+                  preload="auto"
                 />
               </motion.div>
             </div>

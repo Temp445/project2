@@ -25,6 +25,8 @@ export default function Hero() {
             autoPlay
             muted
             loop
+            playsinline
+            preload="auto"
           />
         </div>
         <div className="lg:hidden w-full h-[300px] md:h-[400px] lg:w-[720px] lg:h-[700px] opacity-85 bg-cover bg-no-repeat relative lg:absolute  md:left-[50px] lg:left-[800px] z-[32]">
@@ -34,6 +36,8 @@ export default function Hero() {
             autoPlay
             muted
             loop
+            playsinline
+          preload="auto"
           />
         </div>
 
