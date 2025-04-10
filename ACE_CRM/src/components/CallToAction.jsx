@@ -24,13 +24,13 @@ export default function CallToAction() {
             </div>
           </div>
 
-          <h2 className="flex lg:w-[1290px] h-[163px] mt-5 justify-center items-center font-['Inter'] text-[20px] md:text-[36px] font-bold leading-[40px] text-black tracking-[-1.5px] absolute top-0 left-5 smm:left-10 md:left-16 lg:-left-32  xxl:left-[-80px] xxxl:left-36  xl:left-0 2xl:left-0.5 text-center z-[137] drop-shadow-[0_4px_6px_rgba(0,0,0,0.5)]">
+          <h2 className="flex lg:w-[1290px] h-[163px] mt-5 justify-center items-center font-['Inter'] text-[20px] md:text-[36px] font-bold leading-[40px] text-black tracking-[-1.5px] absolute top-0 left-5 smm:left-10 md:left-16 lg:-left-32  xxl:left-[-80px] xxxl:left-36  xl:right-0 2xl:left-0.5 text-center z-[137] drop-shadow-[0_4px_6px_rgba(0,0,0,0.5)]">
             Ready to transform your sales process?
             <br />
             Start your free trial today.
           </h2>
 
-          <div className=" w-[15%] md:w-[20%] h-[191%] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-03/YOQNH0cfL0.png)] bg-[length:100%_100%] bg-no-repeat absolute top-[-10px] sm:top-[1px] smm left-[85px] smm:left-24 md:left-60  lg:left-[380px] xl:left-[500px] xxl:left-[400px] 2xl:left-[500px] xxxl:left-[650px] z-[143]" />
+          <div className=" w-[15%] md:w-[20%] h-[191%] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-03/YOQNH0cfL0.png)] bg-[length:100%_100%] bg-no-repeat absolute top-[-10px] sm:top-[1px] smm left-[85px] smm:left-24 md:left-60  lg:left-[380px] xl:left-[350px] xxl:left-[400px] 2xl:left-[500px] xxxl:left-[650px] z-[143]" />
         </div>
 
         <div className="flex justify-center items-center gap-5 sm:gap-20 relative z-[134] mt-20 md:mt-28 xxl:ml-[-60px] 2xl:ml-0">

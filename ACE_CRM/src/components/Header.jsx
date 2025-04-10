@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../assets/AceLogo.png";
+import logo from "../assets/logo.jpeg";
 import brochure from "../assets/CRM.pdf";
 import { LuLogIn } from "react-icons/lu";
 import { RiContactsLine } from "react-icons/ri";
@@ -14,13 +14,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white py-4 lg:px-6 xl:px-14  flex items-center justify-between container mx-auto">
+    <nav className="bg-white py-4 lg:px-6 xl:px-20  flex items-center justify-between container mx-auto">
       <div className="flex items-center">
-        <div className="mr-1 -mt-1 sm:mr-3 ">
-        <img src={logo} alt=""  className='h-11 sm:h-12 sm:w-15'/>
+        <div className="mr-2 -mt-1 sm:mr-3 ">
+        <img src={logo} alt=""  className='h-11 sm:h-12 sm:w-15 rounded-full'/>
         </div>
         <div>
-          <h1 className="font-bold text-sm sm:text-lg text-gray-800">ACE Software Solutions</h1>
+          <h1 className="font-bold text-sm sm:text-lg text-gray-800">ACE CRM</h1>
           <p className=" text-[12px] sm:text-sm text-gray-600">Engineering Excellence</p>
         </div>
       </div>
