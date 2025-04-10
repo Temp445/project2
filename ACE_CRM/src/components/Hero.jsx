@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div className=" mx-auto container">
+    <div className=" mx-auto 3xl:container">
       <section
         className="w-full min-h-[600px] xl:h-[700px] relative z-[32] lg:mt-[14.23px] mr-0 mb-0 bg-cover bg-no-repeat lg:bg-[image:url(../assets/landingBg.png)] overflow-hidden"
         style={{
@@ -18,7 +18,7 @@ export default function Hero() {
           Supercharge Your Business with a Centralized, All-in-One CRM Solution
         </h1>
 
-        <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[700px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] xxxl:left-[1000px] xl:left-[700px]  2xl:left-[850px] z-[3]">
+        <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[700px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] 3xl:left-[1000px] xxxl:left-[1000px] xl:left-[700px]  2xl:left-[850px] z-[3]">
           <video
             className="w-full h-full object-cover"
             src={landingGif}
