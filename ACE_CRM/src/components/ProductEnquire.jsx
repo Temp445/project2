@@ -192,7 +192,7 @@ Queries: ${formData.about || "None"}`;
         </div>
       </div>
 
-      <div className="absolute bottom-[980px] rounded-lg lg:rounded-none ml-3 smm:w-[385px] sm:ml-0 w-[350px] md:right-40 md:bottom-[950px] lg:right-5 xl:right-10 lg:bottom-[900px] xl:bottom-[800px] bg-indigo-600 p-1 lg:p-3 lg:w-[200px] lg:rounded-t-2xl lg:rounded-br-2xl shadow-lg shadow-indigo-400 hover:shadow-indigo-600">
+      <div className="absolute bottom-[980px] rounded-lg lg:rounded-none ml-3 smm:w-[385px] sml:ml-5 sm:ml-0 w-[350px] md:right-40 md:bottom-[950px] lg:right-5 xl:right-10 lg:bottom-[900px] xl:bottom-[800px] bg-indigo-600 p-1 lg:p-3 lg:w-[200px] lg:rounded-t-2xl lg:rounded-br-2xl shadow-lg shadow-indigo-400 hover:shadow-indigo-600">
         
           <div className="text-white text-center my-2 text-[14px] lg:text-lg  font-bold">Contact Us :</div>
           <div className="px-2 ml-10 md:ml-12 lg:ml-0 flex gap-5 lg:px-0 lg:gap-0 lg:flex-col">
