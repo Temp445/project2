@@ -9,12 +9,12 @@ export default function ToolsSection() {
 
       <div className="text-center mb-5 sm:mb-10">
         <h2 className=" text-[22px] lg:text-3xl  font-extrabold mb-0 relative inline-block ">
-          <span className="text-[#0057B8]">
+          <span className="text-[#0067FF]">
             Switch from Excel to ACE CRM in Minutes
           </span>
         </h2>
 
-        <p className="hidden sm:block text-[#336699] my-1 max-w-4xl mx-auto text-[16px] lg:text-lg md:text-md leading-relaxed font-semibold">
+        <p className="hidden sm:block text-[#343434] my-1 max-w-4xl mx-auto text-[16px] lg:text-lg md:text-md leading-relaxed font-semibold">
           Import your data, skip the learning curve, and start selling smarter —
           all in just a few clicks.
         </p>

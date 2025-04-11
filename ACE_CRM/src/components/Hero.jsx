@@ -1,6 +1,7 @@
 import React from "react";
 import landingGif from "../assets/landingGif.mp4";
 import landingGif1 from "../assets/landingGif1.mp4";
+import { CgPlayButtonO } from "react-icons/cg";
 
 import Bg from "../assets/landingBg.png";
 import { Link } from "react-router-dom";
@@ -14,11 +15,11 @@ export default function Hero() {
           backgroundImage: `url(${Bg})`,
         }}
       >
-        <h1 className="flex w-full px-4  sm:mt-20 lg:px-0 sm:text-4xl md:text-5xl lg:w-[550px] lg:leading-none xl:w-[750px] xxl:w-[700px] lg:h-[50.25%] justify-start items-center font-['Inter'] text-[28px] lg:text-7xl xl:text-[85px] xxl:text-8xl xl:leading-none xxl:6xl font-bold lg:font-extrabold leading-[1.4]  text-white tracking-[-1.5px] relative lg:absolute py-6 lg:py-0 lg:top-0  lg:left-10 xxl:left-24 xxxl:left-52 2xl:left-30 xl:left-10 text-left z-[16]">
+        <h1 className="flex w-full px-4  sm:mt-20 lg:px-0 sm:text-4xl md:text-5xl lg:w-[500px] lg:leading-none xl:w-[600px] xxl:w-[600px] lg:h-[50.25%] justify-start items-center font-['Inter'] text-[28px] lg:text-7xl xl:text-[85px] xxl:text-8xl xl:leading-none xxl:6xl font-bold lg:font-extrabold leading-[1.4]  text-white tracking-[-1.5px] relative lg:absolute py-6 lg:py-0 lg:top-0  lg:left-10 xxl:left-24 xxxl:left-52 2xl:left-32 xl:left-10 text-left z-[16]">
         A New Era Of Seamless CRM
         </h1>
 
-        <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[600px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] 3xl:left-[1000px] xxxl:left-[1000px] xl:left-[700px]  2xl:left-[850px] z-[3]">
+        <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[600px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] 3xl:left-[1000px] xxxl:left-[1000px] xl:left-[650px]  2xl:left-[850px] z-[3]">
           <video
             className="w-full h-full object-cover"
             src={landingGif}
@@ -47,11 +48,11 @@ export default function Hero() {
           driving growth.
         </p>
 
-        <div className="flex w-full px-4 md:px-0  sm:justify-center lg:justify-start relative lg:absolute lg:bottom-[95px] lg:left-[40px] xl:left-[40px] xxxl:left-52  2xl:left-[110px] xxl:left-24 gap-4 z-[19] py-6 lg:py-0">
+        <div className="flex w-full px-4 md:px-0  sm:justify-center lg:justify-start relative lg:absolute lg:bottom-[95px] lg:left-[40px] xl:left-[40px] xxxl:left-52  2xl:left-[140px] xxl:left-24 gap-4 z-[19] py-6 lg:py-0">
           <div className="flex  sm:flex-row gap-4 pt-4 w-full md:w-auto">
             <Link
               to="#"
-              className="w-full md:w-auto bg-blue-500 text-white sm:py-3 sm:px-6 rounded-lg font-medium flex items-center justify-center transition-all hover:bg-blue-600"
+              className="w-full md:w-auto  bg-gradient-to-br from-blue-500 to-blue-800  text-white sm:py-3 sm:px-6 rounded-lg font-medium flex items-center justify-center transition-all hover:bg-blue-800 shadow-lg"
             >
               Start Free Trial
               <svg
@@ -69,9 +70,9 @@ export default function Hero() {
             </Link>
             <Link
               to="#"
-              className="w-full md:w-auto text-black py-2 sm:py-3 hover:bg-blue-900 hover:text-white sm:px-6 rounded-lg font-medium border border-black transition-all text-center"
+              className=" flex w-full md:w-auto text-black py-2 sm:py-3 hover:bg-blue-900 hover:text-white sm:px-6 rounded-lg font-medium border border-black transition-all text-center shadow-lg hover:border-0"
             >
-              Watch Demo
+             <span className="mr-2 mt-1 text-semibold"><CgPlayButtonO /></span> Watch Demo
             </Link>
           </div>
         </div>

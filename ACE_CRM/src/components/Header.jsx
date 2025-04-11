@@ -53,13 +53,13 @@ const Navbar = () => {
           
           
        
-      <Link to="/signin" className="hidden md:flex lg:hidden items-center ml-64 text-gray-700 hover:text-white hover:bg-green-800 p-1 border border-gray-800  rounded-lg  ">
+      <Link to="/signin" className="hidden md:flex lg:hidden items-center ml-64 text-gray-700  hover:text-white hover:bg-green-800 p-1 border border-gray-800  rounded-[5px] hover:border-0 ">
    <span className='mr-2'><LuLogIn /></span>
           Sign In
         </Link>
 
       <div className="hidden lg:flex items-center space-x-8">
-        <Link to="/signin" className="flex items-center text-gray-700 hover:text-white hover:bg-green-800 p-1 border border-gray-800  rounded-lg  ">
+        <Link to="/signin" className="flex items-center text-gray-700 hover:text-white hover:bg-green-800 p-1 border border-gray-800  rounded-[5px] px-2 hover:border-0  ">
    <span className='mr-2'><LuLogIn /></span>
           Sign In
         </Link>
@@ -112,7 +112,7 @@ const Navbar = () => {
               </svg>
               Sign In
             </Link>
-            <Link to="mailto:sales@acesoft.in" className="flex items-center text-gray-700 hover:text-gray-900 py-2  ">
+            <Link to="mailto:sales@acesoft.in" className="flex items-center text-gray-700 hover:text-blue-500 py-2  ">
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
               </svg>

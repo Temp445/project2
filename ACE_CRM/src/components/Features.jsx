@@ -6,17 +6,19 @@ import Interfaceimage1 from "../assets/Interfaceimage1.png";
 import Interfaceimage2 from "../assets/Interfaceimage2.png";
 import Interfaceimage3 from "../assets/Interfaceimage3.png";
 
-import DataImage1 from "../assets/Dataimage-3.png";
+// import DataImage1 from "../assets/Dataimage-3.png";
 import DataImage2 from "../assets/Dataimage-2.png";
 import DataImage3 from "../assets/Dataimage-1.png";
-import DataVideo1 from "../assets/DataVideo1.mp4";
+import DataImage4 from "../assets/Dataimage-4.jpeg";
+
+import DataVideo1 from "../assets/DataVideo2.mp4";
 
 import Quotesimage1 from "../assets/Quotesimage1.png";
 import Quotesimage2 from "../assets/Quotesimage2.png";
-import video1 from "../assets/QuotesVideo1.mp4";
+import video1 from "../assets/QuotesVideo2.mp4";
 
 import salesTeamImage from "../assets/salesTeamImage.png";
-import salesTeamVideo from "../assets/salesTeamVideo1.mp4";
+import salesTeamVideo from "../assets/salesTeamVideo2.mp4";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
@@ -86,7 +88,7 @@ export default function Features() {
         transition={{ duration: 0.8 }}
         className="w-full font-['Inter'] text-[20px] font-bold leading-[40px] relative text-center whitespace-nowrap mt-12 lg:mt-24 z-[34] mr-0 mb-0"
       >
-        <span className="font-['Inter']  lg:text-3xl font-bold leading-[40px] text-[#0057B8] bg-gradient-to-r from-indigo-50 to-purple-50  border border-b-0  p-3  py-5 rounded-full shadow-lg shadow-[#27548a52]">
+        <span className="font-['Inter']  lg:text-3xl font-bold leading-[40px] text-[#0067FF] bg-gradient-to-r from-indigo-50 to-purple-50  border border-b-0  p-3  py-5 rounded-full shadow-lg shadow-[#27548a52]">
           Why ACE CRM is the Right Choice
         </span>
       </motion.h2>
@@ -94,11 +96,11 @@ export default function Features() {
       <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg ">
         {/* Feature 1 */}
         <ScrollSection id="feature-1">
-          <section className=" relative lg:py-16 ml-0 xxl:ml-0 xl:ml-0 xxxl:ml-36 2xl:ml-0">
+          <section className=" relative lg:py-16   ml-0 xxl:ml-0 xl:ml-0 xxxl:ml-36 2xl:ml-0 xml:left-10">
             <div className="w-full lg:max-w-[1359px] h-[520px] xl:h-[570px] relative z-[76] mt-[3px] mr-0 mb-0  lg:ml-[39px]  xl:ml-0">
               <motion.div
                 variants={fadeInUp}
-                className=" hidden  xl:block bg-no-repeat rounded-[10px] absolute top-10 lg:top-0 xl:top-10 left-[150px] md:left-[900px] xxl:w-[300px]  xl:left-[1044px]  xxl:left-[1084px] 2xl:left-[1180px] xl:mr-2 xxl:mr-0 z-[74]"
+                className=" hidden  xl:block bg-no-repeat rounded-[10px] absolute top-10 lg:top-0 xl:top-10 left-[150px] md:left-[900px] xxl:w-[300px]  xl:left-[1044px]  xxl:left-[1084px] 2xl:left-[1210px] xl:mr-2 xxl:mr-0 z-[74]"
               >
                 <img
                   src={Interfaceimage3}
@@ -107,11 +109,11 @@ export default function Features() {
                 />
               </motion.div>
 
-              <div className="w-[1289px] h-[544px] bg-cover bg-no-repeat rounded-[10px] absolute top-[59px] lg:top-[50px] left-0 smm:left-5 md:left-40 lg:left-0 xl:left-3 xxl:left-[40px] z-[55]">
+              <div className="w-[1289px] h-[544px] bg-cover bg-no-repeat rounded-[10px] absolute top-[59px] lg:top-[50px] left-0 smm:left-5 md:left-40 lg:left-0 xl:left-3 xxl:left-[0px] 2xl:left-0 z-[55]">
              <div className="w-20">
              <motion.h3
                   variants={fadeInUp}
-                  className="flex ml-5  w-[600px] xl:w-[650px] text-xl  mt-10 lg:mt-20 xl:ml-[24px] items-start font-extrabold md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl text-[#0057B8] text-center lg:text-left leading-none "
+                  className="flex ml-5  w-[600px] xl:w-[650px] text-xl  mt-10 lg:mt-20 xl:ml-[24px] items-start font-extrabold md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl text-[#0067FF] text-center lg:text-left leading-none "
                 >
                   Designed to Feel Instantly Familiar 
                 </motion.h3>
@@ -120,7 +122,7 @@ export default function Features() {
                 <div className=" w-[721px] h-[455px] absolute lg:top-[49px]  lg:left-[480px]  xl:left-[544px]  z-[75]">
                   <motion.div
                     variants={slideInRight}
-                    className="hidden lg:block w-[150px] lg:w-[190px] h-[120px] bg-no-repeat rounded-[10px] absolute top-10 lg:top-0 xl:left-[130px] xxl:left-[150px] z-[73]"
+                    className="hidden lg:block w-[150px] lg:w-[190px] h-[120px] bg-no-repeat rounded-[10px] absolute top-10 lg:top-0 xl:left-[130px] xxl:left-[150px] 2xl:left-[200px] z-[73]"
                   >
                     <img
                       src={Interfaceimage1}
@@ -131,7 +133,7 @@ export default function Features() {
 
                   <motion.div
                     variants={fadeIn}
-                    className=" w-[350px] md:w-[450px] lg:w-[450px] xl:w-[500px] xxl:w-[550px] 2xl:w-full h-[380px] bg-cover bg-no-repeat rounded-lg absolute top-[40px] md:top-[10px] lg:top-[50px]  xl:left-[180px] left-2 xxl:left-[220px] z-[72]"
+                    className=" w-[350px] md:w-[450px] lg:w-[450px] xl:w-[500px] xxl:w-[650px] 2xl:w-full h-[380px] bg-cover bg-no-repeat rounded-lg absolute top-[40px] md:top-[10px] lg:top-[50px]  xl:left-[180px] left-2 xxl:left-[220px] 2xl:left-[300px] z-[72]"
                   >
                     <video
                       className="w-[600px] object-center border shadow-lg rounded-lg"
@@ -147,7 +149,7 @@ export default function Features() {
 
                   <motion.div
                     variants={slideInRight}
-                    className="hidden lg:block w-[150px] lg:w-[170px] h-[142px] bg-no-repeat rounded-[10px] absolute top-[270px] xl:top-[330px] left-[315px] xl:left-[100px] xxl:left-[150px] z-[75]"
+                    className="hidden lg:block w-[150px] lg:w-[170px] h-[142px] bg-no-repeat rounded-[10px] absolute top-[270px] xl:top-[330px] left-[315px] xl:left-[100px] xxl:left-[150px] 2xl:left-[200px] z-[75]"
                   >
                     <img
                       src={Interfaceimage2}
@@ -161,7 +163,7 @@ export default function Features() {
                   variants={slideInLeft}
                   className="  w-1/3 md:w-[500px] xl:w-1/2 mt-[270px] pl-2 pe-5 lg:px-1 lg:mt-20 text-left xl:ml-5 z-[59] leading-[40px]"
                 >
-                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold">
+                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold">
                     Navigate with ease, no training needed — just smooth,
                     intuitive CRM from day one.
                   </span>
@@ -173,7 +175,7 @@ export default function Features() {
 
         {/* Feature 2 */}
         <ScrollSection id="feature-2">
-          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[700px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1271px] md:ml-[-1130px] lg:ml-[-1351px]  xl:ml-[-1330px] xxl:ml-[-1310px] xxxl:ml-[-1100px] 2xl:ml-[-1310px] ">
+          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[700px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1271px] md:ml-[-1130px] lg:ml-[-1351px]  xl:ml-[-1330px] xxl:ml-[-1310px] xxxl:ml-[-1100px] 2xl:ml-[-1310px] xml:ml-[-1260px] ">
             <motion.div
               variants={fadeInUp}
               className="hidden lg:block w-[120px] lg:w-[181px] h-[173px] bg-cover bg-no-repeat rounded-[10px] absolute top-32 lg:top-0 left-[1450px] lg:left-[1650px] xxl:left-[1712px] z-[118]"
@@ -200,16 +202,16 @@ export default function Features() {
               <div className="absolute  lg:top-[80px] lg:left-[500px] xl:left-[620px] xxl:left-[650px] 2xl:left-[700px] z-[97]">
                 <motion.h3
                   variants={fadeInUp}
-                  className="flex items-start left-5 font-['Inter'] w-[500px] xl:w-[550px] xxl:w-[650px] text-xl md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold text-[#0057B8] relative  z-[86] mt-10 lg:mt-0 xl:mt-8 lg:ml-0 mr-0 mb-0"
+                  className="flex items-start left-5 font-['Inter'] w-[500px] xl:w-[550px] xxl:w-[650px] text-xl md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold text-[#0067FF] relative  z-[86] mt-10 lg:mt-0 xl:mt-8 lg:ml-0 xxl:ml-6 mr-0 mb-0"
                 >
                   Never Enter the Same Data Twice
                 </motion.h3>
 
                 <motion.div
                   variants={fadeInUp}
-                  className=" w-[360px] md:w-[450px] lg:w-[450px] xl:w-[560px] xxl:w-full mt-[280px] lg:mt-20 text-left ml-2 lg:ml-5 px-0 z-[89]"
+                  className=" w-[360px] md:w-[450px] lg:w-[450px] xl:w-[560px] xxl:w-[620px] 2xl:w-full mt-[280px] lg:mt-20 text-left ml-2 lg:ml-5 xl:ml-8 xxl:ml-12 px-0 z-[89]"
                 >
-                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold leading-[40px]">
+                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data—so you can
                     focus on selling, not typing.
                   </span>
@@ -218,7 +220,7 @@ export default function Features() {
 
               <motion.div
                 variants={fadeIn}
-                className="w-1/2 mt-28 md:mt-24  xl:mt-36 ml-2"
+                className="w-1/2 mt-28 md:mt-24  xl:mt-36 ml-2 xxl:ml-0"
               >
                 <video
                   className=" w-[350px]  md:w-[450px] xl:w-[550px] xxl:w-[600px]  border shadow-lg object-center rounded-[5px]"
@@ -237,7 +239,7 @@ export default function Features() {
               className="hidden lg:block w-[230px] lg:w-[260px] xl:w-[397px] h-[174px] bg-cover bg-no-repeat rounded-[5px] absolute top-[420px] xl:top-[541px] left-[1450px] lg:left-[1653px] z-[119]"
             >
               <img
-                src={DataImage1}
+                src={DataImage4}
                 alt=""
                 className="rounded-[10px] shadow-lg"
               />
@@ -247,11 +249,11 @@ export default function Features() {
 
         {/* Feature 3 */}
         <ScrollSection id="feature-3">
-          <section className="w-full max-w-[1348px] h-[380px] lg:h-[585px] relative z-[146] mt-[0px] mr-0 mb-0 ml-8 smm:ml-12 md:ml-44 lg:ml-0 xl:ml-[12px] xxl:ml-[50px] xxxl:ml-[250px] 2xl:ml-[50px] ">
+          <section className="w-full max-w-[1348px] h-[380px] lg:h-[585px] relative z-[146] mt-[0px] mr-0 mb-0 ml-8 smm:ml-12 md:ml-44 lg:ml-0 xl:ml-[12px] xxl:ml-[35px] xxxl:ml-[250px] 2xl:ml-[30px] xml:ml-[110px] ">
             <div className="w-[1289px] h-[544px] rounded-lg bg-cover bg-no-repeat absolute top-0 -left-5 sm:left-0 z-[85]">
               <motion.div
                 variants={slideInRight}
-                className="w-1/2 mt-56 lg:mt-44  lg:ml-[550px] xl:ml-[650px] xxl:ml-[700px] 2xl:ml-[730px]"
+                className="w-1/2 mt-56 lg:mt-44  lg:ml-[550px] xl:ml-[650px] xxl:ml-[700px] 2xl:ml-[750px]"
               >
                 <video
                   className="w-[350px] md:w-[450px] xl:w-[550px] xxl:w-full h-full object-center rounded-[5px] border shadow-lg "
@@ -266,16 +268,16 @@ export default function Features() {
 
               <motion.h3
                 variants={slideInLeft}
-                className="flex left-5 lg:w-[510px] xxl:w-[600px] items-start font-['Inter']  text-xl md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold leading-[40px] text-[#0057B8] absolute top-[150px] lg:left-[31px] xl:left-4 xxl:left-0  z-[147]"
+                className="flex left-5 lg:w-[510px] xxl:w-[600px] items-start font-['Inter']  text-xl md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold leading-[40px] text-[#0067FF] absolute top-[150px] lg:left-[31px] xl:left-4 xxl:left-0  z-[147]"
               >
                 Create & Share Quotes Instantly
               </motion.h3>
 
               <motion.div
                 variants={slideInLeft}
-                className=" w-[360px] md:w-[500px] lg:w-[500px] xl:w-[550px] h-[340px] font-['Inter'] leading-[40px] xl:mt-10 xxl:mt-14 absolute top-[450px] md:top-[475px] lg:top-[320px] lg:left-[38px] xl:left-[20px] xxl:left-[10px] text-left z-[99]"
+                className=" w-[360px] md:w-[500px] lg:w-[500px] xl:w-[550px] h-[340px] font-['Inter'] leading-[40px] xl:mt-10 xxl:mt-14 absolute top-[450px] md:top-[475px] lg:top-[320px] lg:left-[38px] xl:left-[26px] xxl:left-[10px] text-left z-[99]"
               >
-                <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold">
+                <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold">
                   Look professional, close faster custom quotes in just a few
                   clicks with ACE CRM.
                 </span>
@@ -284,7 +286,7 @@ export default function Features() {
 
             <motion.div
               variants={fadeInUp}
-              className=" hidden lg:block bg-no-repeat rounded-[10px] absolute lg:top-[90px] xl:top-[80px] lg:left-[650px] mr-5 xl:mr-0 xl:w-[400px] xl:ml-[200px] xxl:left-[760px] 2xl:left-[850px] z-[144]"
+              className=" hidden lg:block bg-no-repeat rounded-[10px] absolute lg:top-[90px] xl:top-[80px] lg:left-[650px] mr-5 xl:mr-0 xl:w-[400px] xl:ml-[200px] xxl:left-[780px] 2xl:left-[850px] z-[144]"
             >
               <img
                 src={Quotesimage1}
@@ -295,7 +297,7 @@ export default function Features() {
 
             <motion.div
               variants={fadeInUp}
-              className=" hidden lg:block w-[250px] h-[150px] rounded-[10px] absolute lg:top-[400px] xl:top-[468px] lg:left-[500px] xl:left-[541px] z-[146]"
+              className=" hidden lg:block w-[250px] h-[150px] rounded-[10px] absolute lg:top-[400px] xl:top-[468px] lg:left-[500px] xl:left-[541px] xxl:left-[600px] 2xl:left-[650px] z-[146]"
             >
               <img
                 src={Quotesimage2}
@@ -308,10 +310,10 @@ export default function Features() {
 
         {/* Feature 4 */}
         <ScrollSection id="feature-4">
-          <section className="w-full max-w-[2712px] h-[600px] xl:h-[751px] relative z-[119] mt-[81px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1275px] md:ml-[-1120px]   lg:ml-[-1291px] xxl:ml-[-1291px] xxxl:ml-[-1030px] 2xl:ml-[-1291px]">
+          <section className="w-full max-w-[2712px] h-[600px] xl:h-[751px] relative z-[119] mt-[81px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1275px] md:ml-[-1120px]   lg:ml-[-1291px] xxl:ml-[-1291px] xxxl:ml-[-1030px] 2xl:ml-[-1291px] xml:ml-[-1190px]">
             <motion.div
               variants={slideInLeft}
-              className="hidden lg:block lg:w-[250px] xl:w-[280px] xxl:w-[320px] h-[194px] bg-cover bg-no-repeat absolute top-[70px] xl:top-[56px] left-[1290px] lg:left-[1300px] xl:left-[1308px] 2xl:left-[1328px] z-[117]">
+              className="hidden lg:block lg:w-[250px] xl:w-[280px] xxl:w-[320px] h-[194px] bg-cover bg-no-repeat absolute top-[70px] xl:top-[56px] left-[1290px] lg:left-[1300px] xl:left-[1308px] 2xl:left-[1310px] z-[117]">
               <img
                 src={salesTeamImage}
                 alt="Description"
@@ -323,16 +325,16 @@ export default function Features() {
               <div className="w-[595px] h-[363px]  absolute top-[50px] lg:left-[560px] xl:left-[550px] xxl:left-[679px] z-[97]">
                 <motion.h3
                   variants={fadeInUp}
-                  className="flex justify-center items-start font-['Inter'] lg:w-[500px] xl:w-[600px] xxl:w-[700px] text-xl md:text-2xl md:left-14 lg:left-20 xxl:left-10 lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold text-[#0057B8] relative text-center lg:text-left z-[86] lg:mt-16  mt-10 xl:mt-16 xxl:ml-0 2xl:ml-14 mr-0 mb-0"
+                  className="flex justify-center items-start font-['Inter'] lg:w-[500px] xl:w-[600px] xxl:w-[700px] text-xl md:text-2xl md:left-14 lg:left-20 xxl:left-4 lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold text-[#0067FF] relative text-center lg:text-left z-[86] lg:mt-16  mt-10 xl:mt-16 xxl:ml-0 2xl:ml-10 mr-0 mb-0"
                 >
                   Track Your Sales Team Performance
                 </motion.h3>
 
                 <motion.div
                   variants={fadeInUp}
-                  className="w-[380px] md:w-[500px] lg:w-[500px] xl:w-full mt-64 md:mt-72 lg:mt-20 text-left px-2 lg:px-0  z-[89] ml-28 lg:ml-20 xl:ml-24 xxl:ml-5 2xl:ml-28 "
+                  className="w-[380px] md:w-[500px] lg:w-[500px] xl:w-full xxl:w-[700px] mt-64 md:mt-72 lg:mt-20 text-left px-2 lg:px-0  z-[89] ml-28 lg:ml-20 xl:ml-24 xxl:ml-10 2xl:ml-20 "
                 >
-                  <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold leading-[40px]">
+                  <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data so you can
                     focus on selling, not typing.
                   </span>
@@ -341,7 +343,7 @@ export default function Features() {
 
               <motion.div
                 variants={slideInLeft}
-                className="w-1/2 mt-36 ml-32 xl:ml-10 "
+                className="w-1/2 mt-36 ml-32 xl:ml-1 "
               >
                 <video
                   className=" w-[350px] md:w-[450px] lg:w-[450px] xl:w-[550px] xxl:w-[650px] 2xl:w-full h-full object-center border shadow-lg rounded-[5px]"
