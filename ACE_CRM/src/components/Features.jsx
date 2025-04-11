@@ -200,7 +200,7 @@ export default function Features() {
               <div className="absolute  lg:top-[80px] lg:left-[500px] xl:left-[620px] xxl:left-[650px] 2xl:left-[700px] z-[97]">
                 <motion.h3
                   variants={fadeInUp}
-                  className="flex items-start left-5 font-['Inter'] w-[500px] xl:w-[550px] xxl:w-[650px] text-xl md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold text-[#0057B8] relative  z-[86] mt-10 lg:mt-0 xl:mt-8 lg:ml-5 mr-0 mb-0"
+                  className="flex items-start left-5 font-['Inter'] w-[500px] xl:w-[550px] xxl:w-[650px] text-xl md:text-2xl lg:text-5xl xl:text-6xl xxl:text-7xl font-extrabold text-[#0057B8] relative  z-[86] mt-10 lg:mt-0 xl:mt-8 lg:ml-0 mr-0 mb-0"
                 >
                   Never Enter the Same Data Twice
                 </motion.h3>
