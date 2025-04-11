@@ -14,8 +14,8 @@ export default function Hero() {
           backgroundImage: `url(${Bg})`,
         }}
       >
-        <h1 className="flex w-full px-4  sm:mt-20 lg:px-0  lg:w-[500px] xl:w-1/2 lg:h-[50.25%] justify-start items-center font-['Inter'] text-[28px] xl:text-8xl font-bold lg:font-extrabold leading-[1.4] lg:leading-[60px] text-white tracking-[-1.5px] relative lg:absolute py-6 lg:py-0 lg:top-0  lg:left-10 xxl:left-24 xxxl:left-52 2xl:left-30 xl:left-10 text-left z-[16]">
-        A new era of seamless CRM
+        <h1 className="flex w-full px-4  sm:mt-20 lg:px-0 sm:text-4xl md:text-5xl lg:w-[550px] lg:leading-none xl:w-[750px] xxl:w-[700px] lg:h-[50.25%] justify-start items-center font-['Inter'] text-[28px] lg:text-7xl xl:text-[85px] xxl:text-8xl xl:leading-none xxl:6xl font-bold lg:font-extrabold leading-[1.4]  text-white tracking-[-1.5px] relative lg:absolute py-6 lg:py-0 lg:top-0  lg:left-10 xxl:left-24 xxxl:left-52 2xl:left-30 xl:left-10 text-left z-[16]">
+        A New Era Of Seamless CRM
         </h1>
 
         <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[600px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] 3xl:left-[1000px] xxxl:left-[1000px] xl:left-[700px]  2xl:left-[850px] z-[3]">
