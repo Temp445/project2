@@ -86,7 +86,7 @@ export default function Features() {
         transition={{ duration: 0.8 }}
         className="w-full font-['Inter'] text-[20px] font-bold leading-[40px] relative text-center whitespace-nowrap mt-12 lg:mt-24 z-[34] mr-0 mb-0"
       >
-        <span className="font-['Inter']  lg:text-3xl font-bold leading-[40px] text-[#27548A] bg-gradient-to-r from-indigo-50 to-purple-50  border border-b-0  p-3  py-5 rounded-full shadow-lg shadow-[#27548a52]">
+        <span className="font-['Inter']  lg:text-3xl font-bold leading-[40px] text-[#0057B8] bg-gradient-to-r from-indigo-50 to-purple-50  border border-b-0  p-3  py-5 rounded-full shadow-lg shadow-[#27548a52]">
           Why ACE CRM is the Right Choice
         </span>
       </motion.h2>
@@ -94,8 +94,8 @@ export default function Features() {
       <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg ">
         {/* Feature 1 */}
         <ScrollSection id="feature-1">
-          <section className=" relative lg:py-32 ml-0 xxl:ml-0 xl:ml-0 xxxl:ml-36 2xl:ml-0">
-            <div className="w-full lg:max-w-[1359px] h-[520px] xl:h-[603px] relative z-[76] mt-[3px] mr-0 mb-0  lg:ml-[39px]  xl:ml-0">
+          <section className=" relative lg:py-16 ml-0 xxl:ml-0 xl:ml-0 xxxl:ml-36 2xl:ml-0">
+            <div className="w-full lg:max-w-[1359px] h-[520px] xl:h-[570px] relative z-[76] mt-[3px] mr-0 mb-0  lg:ml-[39px]  xl:ml-0">
               <motion.div
                 variants={fadeInUp}
                 className=" hidden  xl:block bg-no-repeat rounded-[10px] absolute top-10 lg:top-0 xl:top-10 left-[150px] md:left-[900px] xxl:w-[300px]  xl:left-[1044px]  xxl:left-[1084px] 2xl:left-[1180px] xl:mr-2 xxl:mr-0 z-[74]"
@@ -110,7 +110,7 @@ export default function Features() {
               <div className="w-[1289px] h-[544px] bg-cover bg-no-repeat rounded-[10px] absolute top-[59px] left-0 smm:left-5 md:left-40 lg:left-0 xl:left-3 xxl:left-[40px] z-[55]">
                 <motion.h3
                   variants={fadeInUp}
-                  className="flex lg:w-1/2  text-xl mt-10 lg:mt-28 items-start font-extrabold lg:text-2xl xl:text-3xl xxl:text-4xl text-[#27548A] text-center whitespace-nowrap"
+                  className="flex lg:w-1/2  text-xl mt-10 lg:mt-28 items-start font-extrabold lg:text-2xl xl:text-3xl xxl:text-4xl text-[#0057B8] text-center whitespace-nowrap"
                 >
                   " Designed to Feel Instantly Familiar "
                 </motion.h3>
@@ -159,7 +159,7 @@ export default function Features() {
                   variants={slideInLeft}
                   className="  w-1/3 xl:w-1/2 mt-[270px] pl-2 pe-5 lg:px-1 lg:mt-20 text-left xl:ml-5 z-[59] leading-[40px]"
                 >
-                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#939797] font-semibold">
+                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold">
                     Navigate with ease, no training needed — just smooth,
                     intuitive CRM from day one.
                   </span>
@@ -171,7 +171,7 @@ export default function Features() {
 
         {/* Feature 2 */}
         <ScrollSection id="feature-2">
-          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[791px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1271px] md:ml-[-1130px] lg:ml-[-1351px]  xl:ml-[-1330px] xxl:ml-[-1310px] xxxl:ml-[-1100px] 2xl:ml-[-1310px] ">
+          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[700px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1271px] md:ml-[-1130px] lg:ml-[-1351px]  xl:ml-[-1330px] xxl:ml-[-1310px] xxxl:ml-[-1100px] 2xl:ml-[-1310px] ">
             <motion.div
               variants={fadeInUp}
               className="hidden lg:block w-[120px] lg:w-[181px] h-[173px] bg-cover bg-no-repeat rounded-[10px] absolute top-32 lg:top-0 left-[1450px] lg:left-[1650px] xxl:left-[1712px] z-[118]"
@@ -198,7 +198,7 @@ export default function Features() {
               <div className="absolute  lg:top-[80px] lg:left-[500px] xl:left-[620px] xxl:left-[650px] 2xl:left-[700px] z-[97]">
                 <motion.h3
                   variants={fadeInUp}
-                  className="flex items-start font-['Inter'] text-xl lg:text-2xl xl:text-3xl xxl:text-4xl font-extrabold text-[#27548A] relative whitespace-nowrap z-[86] mt-10 mr-0 mb-0"
+                  className="flex items-start font-['Inter'] text-xl lg:text-2xl xl:text-3xl xxl:text-4xl font-extrabold text-[#0057B8] relative whitespace-nowrap z-[86] mt-10 mr-0 mb-0"
                 >
                   " Never Enter the Same Data Twice "
                 </motion.h3>
@@ -207,7 +207,7 @@ export default function Features() {
                   variants={fadeInUp}
                   className=" w-[360px] lg:w-[450px] xl:w-[560px] xxl:w-full mt-[280px] lg:mt-20 text-left ml-2 lg:ml-5 px-0 z-[89]"
                 >
-                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#939797] font-semibold leading-[40px]">
+                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data—so you can
                     focus on selling, not typing.
                   </span>
@@ -264,7 +264,7 @@ export default function Features() {
 
               <motion.h3
                 variants={slideInLeft}
-                className="flex items-start font-['Inter'] text-xl lg:text-2xl xl:text-3xl xxl:text-4xl font-extrabold leading-[40px] text-[#27548A] absolute top-[150px] lg:left-[31px] xl:left-0 whitespace-nowrap z-[147]"
+                className="flex items-start font-['Inter'] text-xl lg:text-2xl xl:text-3xl xxl:text-4xl font-extrabold leading-[40px] text-[#0057B8] absolute top-[150px] lg:left-[31px] xl:left-0 whitespace-nowrap z-[147]"
               >
                 " Create & Share Quotes Instantly "
               </motion.h3>
@@ -273,7 +273,7 @@ export default function Features() {
                 variants={slideInLeft}
                 className=" w-[360px] lg:w-[500px] xl:w-[550px] h-[340px] font-['Inter'] leading-[40px] absolute top-[450px] md:top-[475px] lg:top-[260px] lg:left-[38px] xl:left-[20px] xxl:left-[10px] text-left z-[99]"
               >
-                <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#939797] font-semibold">
+                <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold">
                   Look professional, close faster custom quotes in just a few
                   clicks with ACE CRM.
                 </span>
@@ -321,7 +321,7 @@ export default function Features() {
               <div className="w-[595px] h-[363px]  absolute top-[50px] lg:left-[560px] xl:left-[550px] xxl:left-[679px] z-[97]">
                 <motion.h3
                   variants={fadeInUp}
-                  className="flex justify-center items-start font-['Inter'] text-xl lg:text-2xl xl:text-3xl xxl:text-4xl font-extrabold text-[#27548A] relative text-center whitespace-nowrap z-[86] xl:ml-28 mt-10 xl:mt-16 2xl:ml-40 mr-0 mb-0"
+                  className="flex justify-center items-start font-['Inter'] text-xl lg:text-2xl xl:text-3xl xxl:text-4xl font-extrabold text-[#0057B8] relative text-center whitespace-nowrap z-[86] xl:ml-28 mt-10 xl:mt-16 2xl:ml-40 mr-0 mb-0"
                 >
                   " Track <span className="hidden lg:block mx-2">Your</span>{" "}
                   Sales Team Performance "
@@ -329,9 +329,9 @@ export default function Features() {
 
                 <motion.div
                   variants={fadeInUp}
-                  className="w-[380px] lg:w-[500px] xl:w-full mt-64 md:mt-72 lg:mt-24 text-left px-2 lg:px-0  z-[89] ml-28 lg:ml-20 xl:ml-14 xxl:ml-5 2xl:ml-10 "
+                  className="w-[380px] lg:w-[500px] xl:w-full mt-64 md:mt-72 lg:mt-24 text-left px-2 lg:px-0  z-[89] ml-28 lg:ml-20 xl:ml-14 xxl:ml-5 2xl:ml-16 "
                 >
-                  <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#939797] font-semibold leading-[40px]">
+                  <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#336699] font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data so you can
                     focus on selling, not typing.
                   </span>

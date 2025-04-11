@@ -9,16 +9,16 @@ export default function Hero() {
   return (
     <div className=" mx-auto 3xl:container">
       <section
-        className="w-full min-h-[600px] xl:h-[700px] relative z-[32] lg:mt-[14.23px] mr-0 mb-0 bg-cover bg-no-repeat lg:bg-[image:url(../assets/landingBg.png)] overflow-hidden"
+        className="w-full min-h-[600px] xl:h-[600px] relative z-[32] lg:mt-[14.23px] mr-0 mb-0 bg-cover bg-no-repeat lg:bg-[image:url(../assets/landingBg.png)] overflow-hidden"
         style={{
           backgroundImage: `url(${Bg})`,
         }}
       >
-        <h1 className="flex w-full px-4  lg:px-0  lg:w-[500px] xl:w-[620px] lg:h-[50.25%] justify-start items-center font-['Inter'] text-[24px] xl:text-[36px] font-bold lg:font-extrabold leading-[1.4] lg:leading-[60px] text-white tracking-[-1.5px] relative lg:absolute py-6 lg:py-0 lg:top-0  lg:left-10 xxl:left-24 xxxl:left-52 2xl:left-30 xl:left-10 text-left z-[16]">
-          Supercharge Your Business with a Centralized, All-in-One CRM Solution
+        <h1 className="flex w-full px-4  sm:mt-20 lg:px-0  lg:w-[500px] xl:w-1/2 lg:h-[50.25%] justify-start items-center font-['Inter'] text-[28px] xl:text-8xl font-bold lg:font-extrabold leading-[1.4] lg:leading-[60px] text-white tracking-[-1.5px] relative lg:absolute py-6 lg:py-0 lg:top-0  lg:left-10 xxl:left-24 xxxl:left-52 2xl:left-30 xl:left-10 text-left z-[16]">
+        A new era of seamless CRM
         </h1>
 
-        <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[700px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] 3xl:left-[1000px] xxxl:left-[1000px] xl:left-[700px]  2xl:left-[850px] z-[3]">
+        <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[600px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] 3xl:left-[1000px] xxxl:left-[1000px] xl:left-[700px]  2xl:left-[850px] z-[3]">
           <video
             className="w-full h-full object-cover"
             src={landingGif}
@@ -41,7 +41,7 @@ export default function Hero() {
           />
         </div>
 
-        <p className="flex w-full px-4  lg:px-0 lg:w-[500px] xl:w-[652px]  py-6 lg:h-[14.52%] justify-start items-center font-['Inter'] text-[18px] xl:text-[22px] font-semibold leading-[1.6] lg:leading-[60px] text-[#e3e7fa] tracking-[-1px] lg:tracking-[-1.5px] relative lg:absolute lg:top-[45.16%] lg:left-10 xl:left-10 2xl:left-[105px] xxl:left-24 xxxl:left-52 text-left z-[17]">
+        <p className=" sm:hidden  w-full px-4  lg:px-0 lg:w-[500px] xl:w-[652px]  py-6 lg:h-[14.52%] justify-start items-center font-['Inter'] text-[18px] xl:text-[22px] font-semibold leading-[1.6] lg:leading-[60px] text-[#e3e7fa] tracking-[-1px] lg:tracking-[-1.5px] relative lg:absolute lg:top-[45.16%] lg:left-10 xl:left-10 2xl:left-[105px] xxl:left-24 xxxl:left-52 text-left z-[17]">
           Empower your team to manage customer relationships, automate tasks,
           and analyze data from a single platform boosting efficiency and
           driving growth.

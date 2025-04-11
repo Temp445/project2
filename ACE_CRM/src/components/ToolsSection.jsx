@@ -3,18 +3,18 @@ import excel from "../assets/excel.png";
 
 export default function ToolsSection() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-10 lg:py-16 mt-0 relative container">
+    <div className="max-w-7xl mx-auto px-4 py-10 lg:py-10 mt-0 relative container">
       <div className="absolute top-0 left-0 w-40 h-40 bg-indigo-100 rounded-full opacity-20 -z-10 blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-64 h-64 bg-purple-100 rounded-full opacity-30 -z-10 blur-3xl"></div>
 
       <div className="text-center mb-5 sm:mb-10">
         <h2 className=" text-[22px] lg:text-3xl  font-extrabold mb-0 relative inline-block ">
-          <span className="text-[#27548A]">
+          <span className="text-[#0057B8]">
             Switch from Excel to ACE CRM in Minutes
           </span>
         </h2>
 
-        <p className="hidden sm:block text-[#768296] my-1 max-w-4xl mx-auto text-[16px] lg:text-lg md:text-md leading-relaxed font-semibold">
+        <p className="hidden sm:block text-[#336699] my-1 max-w-4xl mx-auto text-[16px] lg:text-lg md:text-md leading-relaxed font-semibold">
           Import your data, skip the learning curve, and start selling smarter —
           all in just a few clicks.
         </p>
