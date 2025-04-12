@@ -25,6 +25,11 @@ const fadeInUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
+const fadeInUp1 = {
+  hidden: { opacity: 0, y: 100 },
+  visible: { opacity: 1, y: 0, transition: { duration: 7.8 } },
+};
+
 const fadeIn = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 0.8 } },
@@ -35,9 +40,19 @@ const slideInLeft = {
   visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
 };
 
+const slideInLeft1 = {
+  hidden: { opacity: 0, x: -300 },
+  visible: { opacity: 1, x: 0, transition: { duration: 6.5 } },
+};
+
 const slideInRight = {
   hidden: { opacity: 0, x: 100 },
   visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+};
+
+const slideInRight1 = {
+  hidden: { opacity: 0, x: 200 },
+  visible: { opacity: 1, x: 0, transition: { duration: 5.5 } },
 };
 
 const staggerContainer = {
@@ -179,7 +194,7 @@ export default function Features() {
         <ScrollSection id="feature-2">
           <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[700px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1271px] md:ml-[-1130px] lg:ml-[-1351px]  xl:ml-[-1330px] xxl:ml-[-1310px] xxxl:ml-[-1100px] 2xl:ml-[-1310px] xml:ml-[-1260px] ">
             <motion.div
-              variants={fadeInUp}
+              variants={fadeInUp1}
               className="hidden lg:block w-[120px] lg:w-[181px] h-[173px] bg-cover bg-no-repeat rounded-[10px] absolute top-32 lg:top-0 left-[1450px] lg:left-[1650px] xxl:left-[1712px] z-[118]"
             >
               <img
@@ -190,7 +205,7 @@ export default function Features() {
             </motion.div>
 
             <motion.div
-              variants={slideInLeft}
+              variants={slideInLeft1}
               className="hidden lg:block w-[200px] lg:w-[300px] xl:w-[420px] h-[194px] bg-cover bg-no-repeat absolute top-[200px] lg:top-[96px] left-[1290px] lg:left-[1370px] xl:left-[1348px] z-[117]"
             >
               <img
@@ -214,7 +229,7 @@ export default function Features() {
                   className=" w-[360px] md:w-[450px] lg:w-[450px] xl:w-[560px] xxl:w-[620px] 2xl:w-full mt-[280px] lg:mt-20 text-left ml-2 lg:ml-5 xl:ml-8 xxl:ml-12 px-0 z-[89]"
                 >
                  <div className=" lg:-ml-5 lg:pl-5 lg:rounded-full border lg:py-2 lg:shadow-xl ">
-                 <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
+                 <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#0067FF]   font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data—so you can
                     focus on selling, not typing.
                   </span>
@@ -223,7 +238,7 @@ export default function Features() {
               </div>
 
               <motion.div
-                variants={fadeIn}
+                // variants={fadeIn}
                 className="w-1/2 mt-28 md:mt-24  xl:mt-36 ml-2 xxl:ml-0"
               >
                 <video
@@ -239,7 +254,7 @@ export default function Features() {
             </div>
 
             <motion.div
-              variants={slideInRight}
+              variants={slideInRight1}
               className="hidden lg:block w-[230px] lg:w-[260px] xl:w-[397px] h-[174px] bg-cover bg-no-repeat rounded-[5px] absolute top-[420px] xl:top-[541px] left-[1450px] lg:left-[1653px] z-[119]"
             >
               <img
@@ -282,7 +297,7 @@ export default function Features() {
                 className=" w-[360px] md:w-[500px] lg:w-[500px] xl:w-[590px] h-[340px] font-['Inter'] leading-[40px] xl:mt-10 xxl:mt-14 absolute top-[450px] md:top-[475px] lg:top-[320px] lg:left-[38px] xl:left-[26px] xxl:left-[10px] text-left z-[99]"
               >
                    <div className=" lg:pl-5 lg:rounded-full border lg:py-2 lg:shadow-xl lg:px-5 ">
-                   <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold ">
+                   <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#0067FF]   font-semibold ">
                   Look professional, close faster custom quotes in just a few
                   clicks with ACE CRM.
                 </span>
@@ -341,7 +356,7 @@ export default function Features() {
                   className="w-[380px] md:w-[500px] lg:w-[500px] xl:w-full xxl:w-[700px] mt-64 md:mt-72 lg:mt-20 text-left px-2 lg:px-0  z-[89] ml-28 lg:ml-20 xl:ml-24 xxl:ml-10 2xl:ml-20 "
                 >
                      <div className=" lg:-ml-5 lg:pl-5 lg:rounded-full border lg:py-2 lg:shadow-xl lg:px-1">
-                     <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
+                     <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#0067FF]  font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data so you can
                     focus on selling, not typing.
                   </span>
