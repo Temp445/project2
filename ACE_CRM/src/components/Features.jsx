@@ -6,7 +6,7 @@ import Interfaceimage1 from "../assets/Interfaceimage1.png";
 import Interfaceimage2 from "../assets/Interfaceimage2.png";
 import Interfaceimage3 from "../assets/Interfaceimage3.png";
 
-// import DataImage1 from "../assets/Dataimage-3.png";
+
 import DataImage2 from "../assets/Dataimage-2.png";
 import DataImage3 from "../assets/Dataimage-1.png";
 import DataImage4 from "../assets/Dataimage-4.jpeg";
@@ -238,7 +238,6 @@ export default function Features() {
               </div>
 
               <motion.div
-                // variants={fadeIn}
                 className="w-1/2 mt-28 md:mt-24  xl:mt-36 ml-2 xxl:ml-0"
               >
                 <video

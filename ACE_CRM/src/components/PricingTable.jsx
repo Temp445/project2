@@ -13,14 +13,14 @@ const PricingTable = () => {
     { name: 'Task Assignment & Tracking', standard: true, premium: true },
   ];
 
-  // Auto Trigger feature
+  //features-2
   const autoTriggerFeatures = [
     { name: 'Opportunity Tracking', standard: true, premium: true },
     { name: 'Quotation Generation', standard: true, premium: true },
     { name: 'Order Management', standard: true, premium: true },
   ];
 
-  //features-2
+  //features-3
   const features2 = [
     { name: 'Customized Quote templates', standard: true, standardNote: '(1)', premium: true },
     { name: 'Sales Team Performance Monitoring', standard: true, premium: true },
@@ -179,10 +179,10 @@ const PricingTable = () => {
                 <>
                   <h3 className="font-medium text-gray-900 mb-4">Features included:</h3>
                   <div className="space-y-3">
-                    {/* features */}
+                    {/* features-1 */}
                     {renderFeatureList(features1, plan.name.toLowerCase(), plan.name)}
 
-                    {/* Auto Trigger Feature  */}
+                    {/*Feature-2  */}
                     <div className="py-4 pl-3  rounded-lg my-4 border border-indigo-100 shadow-lg -ml-3 hover:shadow-xl">
                       <div className="flex items-center  mb-2">
                         <span className="text-indigo-700 font-bold flex"> <span className='mr-2 text-2xl'><MdOutlineGeneratingTokens /></span> Auto Creation Based On Trigger</span>
@@ -211,7 +211,7 @@ const PricingTable = () => {
                       </div>
                     </div>
 
-                    {/* features-2*/}
+                    {/* features-3*/}
                     {renderFeatureList(features2, plan.name.toLowerCase(), plan.name)}
 
                     {(plan.trial || plan.card) && (

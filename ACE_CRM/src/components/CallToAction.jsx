@@ -46,8 +46,7 @@ export default function CallToAction() {
 
           <a
             href="#contact"
-            className="p-3 bg-white rounded-[10px] shadow-lg transition-transform hover:translate-y-[-2px] flex items-center justify-center group"
-          >
+            className="p-3 bg-white rounded-[10px] shadow-lg transition-transform hover:translate-y-[-2px] flex items-center justify-center group">
             <FaWpforms  className=" w-4 h-8 text-black transition-transform group-hover:rotate-12 mr-2" />
 
             <span className="font-['Inter'] md:text-[20px] font-semibold text-black ">
