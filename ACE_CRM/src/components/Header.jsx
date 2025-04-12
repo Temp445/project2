@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../assets/AceLogo.png";
-import brochure from "../assets/CRM.pdf";
+import brochure from "../assets/CRM_Brochure.pdf";
 import { LuLogIn } from "react-icons/lu";
 import { RiContactsLine } from "react-icons/ri";
 import { TbFileDownload } from "react-icons/tb";

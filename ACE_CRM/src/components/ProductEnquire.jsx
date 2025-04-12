@@ -196,8 +196,8 @@ Queries: ${formData.about || "None"}`;
         
           <div className="text-white text-center my-2 text-[14px] lg:text-lg  font-bold">Contact Us :</div>
           <div className="px-2 ml-10 md:ml-12 lg:ml-0 flex gap-5 lg:px-0 lg:gap-0 lg:flex-col">
-          <div className="text-white my-2 flex text-[14px] lg:text-lg gap-2">
-            <MdAddIcCall className="mt-1 lg:mt-1.5" /> 97109 46806
+          <div className="text-white my-2 flex text-[14px] lg:text-lg gap-1">
+            <MdAddIcCall className="mt-1 lg:mt-1.5" />+91 9840137210
           </div>
           <div className="text-white flex text-[14px] lg:text-lg gap-2 mt-2 lg:mt-0">
             <MdOutlineMail className="mt-1 lg:mt-1.5" /> sales@acesoft.in
