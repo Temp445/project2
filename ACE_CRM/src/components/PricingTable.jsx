@@ -1,22 +1,33 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
+import { MdOutlineGeneratingTokens } from "react-icons/md";
 
 const PricingTable = () => {
   const [billingPeriod, setBillingPeriod] = useState('monthly');
 
-  const features = [
+  // features-1
+  const features1 = [
     { name: 'Excel & Spreadsheet Import', standard: true, premium: true },
     { name: 'Lead Tracking', standard: true, standardNote: '(Up to 1500)', premium: true, premiumNote: '(Up to 3000)' },
+    { name: 'Advanced Search & Filters', standard: true, premium: true },
+    { name: 'Task Assignment & Tracking', standard: true, premium: true },
+  ];
+
+  // Auto Trigger feature
+  const autoTriggerFeatures = [
     { name: 'Opportunity Tracking', standard: true, premium: true },
     { name: 'Quotation Generation', standard: true, premium: true },
     { name: 'Order Management', standard: true, premium: true },
-    { name: 'Advanced Search & Filters', standard: true, premium: true },
-    { name: 'Task Assignment & Tracking', standard: true, premium: true },
+  ];
+
+  //features-2
+  const features2 = [
     { name: 'Customized Quote templates', standard: true, standardNote: '(1)', premium: true },
     { name: 'Sales Team Performance Monitoring', standard: true, premium: true },
-    { name: 'Calendar & Activity Reminders', standard: false, premium: true },
+    { name: 'Calendar & Activity Reminders', standard: true, premium: true },
     { name: 'One-Click Reports & Analytics', standard: true, standardNote: '(Up to 10)', premium: true },
     { name: 'Secure Cloud Storage', standard: true, premium: true },
+    { name: 'Schedule Report', standard: false, premium: false },
   ];
 
   const plans = [
@@ -73,6 +84,27 @@ const PricingTable = () => {
   const FeatureIcon = ({ available, limited }) => {
     if (!available) return <span className="text-red-500 font-medium">✗</span>;
     return <span className="text-green-500 font-medium">✓</span>;
+  };
+
+  const renderFeatureList = (featureList, planKey, planName) => {
+    return featureList.map((feature, index) => {
+      const isAvailable = feature[planKey];
+      const noteKey = `${planKey}Note`;
+      const featureNote = feature[noteKey];
+      const isLimited = featureNote && featureNote.includes('limited');
+      
+      return (
+        <div key={`${planName}-${index}`} className="flex items-start">
+          <div className="mt-0.5 mr-3">
+            <FeatureIcon available={isAvailable} limited={isLimited} />
+          </div>
+          <span className={`${isAvailable ? 'text-gray-800' : 'text-gray-500'}`}>
+            {feature.name}
+            {featureNote && <span className="text-gray-500 text-sm"> {featureNote}</span>}
+          </span>
+        </div>
+      );
+    });
   };
 
   return (
@@ -147,25 +179,41 @@ const PricingTable = () => {
                 <>
                   <h3 className="font-medium text-gray-900 mb-4">Features included:</h3>
                   <div className="space-y-3">
-                    {features.map((feature, index) => {
-                      const planKey = plan.name.toLowerCase();
-                      const isAvailable = feature[planKey];
-                      const noteKey = `${planKey}Note`;
-                      const featureNote = feature[noteKey];
-                      const isLimited = featureNote && featureNote.includes('limited');
-                      
-                      return (
-                        <div key={index} className="flex items-start">
-                          <div className="mt-0.5 mr-3">
-                            <FeatureIcon available={isAvailable} limited={isLimited} />
-                          </div>
-                          <span className={`${isAvailable ? 'text-gray-800' : 'text-gray-500'}`}>
-                            {feature.name}
-                            {featureNote && <span className="text-gray-500 text-sm"> {featureNote}</span>}
-                          </span>
+                    {/* features */}
+                    {renderFeatureList(features1, plan.name.toLowerCase(), plan.name)}
+
+                    {/* Auto Trigger Feature  */}
+                    <div className="py-4 pl-3  rounded-lg my-4 border border-indigo-100 shadow-lg -ml-3 hover:shadow-xl">
+                      <div className="flex items-center  mb-2">
+                        <span className="text-indigo-700 font-bold flex"> <span className='mr-2 text-2xl'><MdOutlineGeneratingTokens /></span> Auto Creation Based On Trigger</span>
+                      </div>
+                      <div className="flex justify-center">
+                        <div className="flex-1">
+                          {autoTriggerFeatures.map((feature, index) => {
+                            const planKey = plan.name.toLowerCase();
+                            const isAvailable = feature[planKey];
+                            const noteKey = `${planKey}Note`;
+                            const featureNote = feature[noteKey];
+                            
+                            return (
+                              <div key={`auto-${index}`} className="flex items-start py-1">
+                                <div className="mt-0.5 mr-3">
+                                  <FeatureIcon available={isAvailable} />
+                                </div>
+                                <span className={`${isAvailable ? 'text-gray-800' : 'text-gray-500'}`}>
+                                  {feature.name}
+                                  {featureNote && <span className="text-gray-500 text-sm"> {featureNote}</span>}
+                                </span>
+                              </div>
+                            );
+                          })}
                         </div>
-                      );
-                    })}
+                      </div>
+                    </div>
+
+                    {/* features-2*/}
+                    {renderFeatureList(features2, plan.name.toLowerCase(), plan.name)}
+
                     {(plan.trial || plan.card) && (
                     <div className='bg-indigo-700 rounded-lg hover:bg-indigo-900 py-1'>   <a href={plan.link} className="mt-6 pt-4 ">
                     {plan.trial && <p className="text-white font-bold text-center">{plan.trial}</p>}
@@ -179,7 +227,7 @@ const PricingTable = () => {
                   <p className="text-lg font-medium mb-4">Features included:</p>
                   <p className="mb-6"> <span className="text-green-500 font-medium mr-3">✓</span>Everything in the Premium plan.</p>
                   <p className="mb-6"> <span className="text-green-500 font-medium mr-3">✓</span>Fully customizable to your needs.</p>
-
+                  <p className="mb-6"> <span className="text-green-500 font-medium mr-3">✓</span>Schedule Report</p>
                   <div className="pt-4 border-t border-gray-100">
                     <p className="text-gray-600">Contact our sales team for custom solutions.</p>
                   </div>
