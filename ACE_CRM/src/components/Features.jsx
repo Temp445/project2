@@ -161,12 +161,14 @@ export default function Features() {
 
                 <motion.div
                   variants={slideInLeft}
-                  className="  w-1/3 md:w-[500px] xl:w-1/2 mt-[270px] pl-2 pe-5 lg:px-1 lg:mt-20 text-left xl:ml-5 z-[59] leading-[40px]"
+                  className="  w-1/3 md:w-[500px] xl:w-1/2 mt-[270px] pl-2 pe-5 lg:px- lg:py-5 lg:mt-20 text-left xl:ml-5 z-[59] leading-[40px]  "
                 >
-                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold">
+                <div className=" lg:pl-5 lg:rounded-full border lg:py-2 lg:shadow-xl ">
+                <span className="font-['Inter'] text-[14px] lg:text-[20px] 2xl:text-[22px] text-[#0067FF]  font-medium ">
                     Navigate with ease, no training needed — just smooth,
                     intuitive CRM from day one.
                   </span>
+                </div>
                 </motion.div>
               </div>
             </div>
@@ -211,10 +213,12 @@ export default function Features() {
                   variants={fadeInUp}
                   className=" w-[360px] md:w-[450px] lg:w-[450px] xl:w-[560px] xxl:w-[620px] 2xl:w-full mt-[280px] lg:mt-20 text-left ml-2 lg:ml-5 xl:ml-8 xxl:ml-12 px-0 z-[89]"
                 >
-                  <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
+                 <div className=" lg:-ml-5 lg:pl-5 lg:rounded-full border lg:py-2 lg:shadow-xl ">
+                 <span className="font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data—so you can
                     focus on selling, not typing.
                   </span>
+                 </div>
                 </motion.div>
               </div>
 
@@ -275,12 +279,14 @@ export default function Features() {
 
               <motion.div
                 variants={slideInLeft}
-                className=" w-[360px] md:w-[500px] lg:w-[500px] xl:w-[550px] h-[340px] font-['Inter'] leading-[40px] xl:mt-10 xxl:mt-14 absolute top-[450px] md:top-[475px] lg:top-[320px] lg:left-[38px] xl:left-[26px] xxl:left-[10px] text-left z-[99]"
+                className=" w-[360px] md:w-[500px] lg:w-[500px] xl:w-[590px] h-[340px] font-['Inter'] leading-[40px] xl:mt-10 xxl:mt-14 absolute top-[450px] md:top-[475px] lg:top-[320px] lg:left-[38px] xl:left-[26px] xxl:left-[10px] text-left z-[99]"
               >
-                <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold">
+                   <div className=" lg:pl-5 lg:rounded-full border lg:py-2 lg:shadow-xl lg:px-5 ">
+                   <span className="font-['Inter'] text-[16px]  lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold ">
                   Look professional, close faster custom quotes in just a few
                   clicks with ACE CRM.
                 </span>
+                   </div>
               </motion.div>
             </div>
 
@@ -334,10 +340,12 @@ export default function Features() {
                   variants={fadeInUp}
                   className="w-[380px] md:w-[500px] lg:w-[500px] xl:w-full xxl:w-[700px] mt-64 md:mt-72 lg:mt-20 text-left px-2 lg:px-0  z-[89] ml-28 lg:ml-20 xl:ml-24 xxl:ml-10 2xl:ml-20 "
                 >
-                  <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
+                     <div className=" lg:-ml-5 lg:pl-5 lg:rounded-full border lg:py-2 lg:shadow-xl lg:px-1">
+                     <span className="  font-['Inter'] text-[16px] lg:text-[20px] 2xl:text-[22px] text-[#343434] font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data so you can
                     focus on selling, not typing.
                   </span>
+                     </div>
                 </motion.div>
               </div>
 
